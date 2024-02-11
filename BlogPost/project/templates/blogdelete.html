@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="delete-page">
+    <a href="{% url 'home' %}"><button>Go Back</button></a>
+  
+    <form action="" method="post">
+        {% csrf_token %}
+        <p style="font-family:'Times New Roman', Times, serif;">Are you sure you want to delete {{ delete }}   ? '</p>
+         <input type="submit" value="delete">
+    </form>
+</div>
+{% endblock content %}
