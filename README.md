@@ -1,4 +1,5 @@
-Blog Management System
+**Blog Management System**
+
 The Blog Management System is a Django-based web application designed to facilitate the creation, management, and sharing of blog posts.
 It provides users with the ability to sign up, log in, create, view, update, and delete blog posts, offering a seamless blogging experience.
 
